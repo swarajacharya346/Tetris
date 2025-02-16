@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    }
+    
+    #game-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 600px;
+        border: 4px solid #ffd700;
+        background-color: #000;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+    
+        #game-container div.row {
+            display: flex;
+            justify-content: center;
+            }
+            
+            #game-container div {
+                display: flex;
+                justify-content: center;
+                }
+                
+    #game-container div.active {
+    background-color: #007bff;
+    }
